@@ -1,4 +1,5 @@
 # JDBC_CRUD_DATABASE_COMMAND
+```SQL
 create database studentmanagement;
 use studentmanagement;
 
@@ -6,4 +7,4 @@ create table student_data (sid int primary key not null auto_increment, sname va
 
 describe student_data;
 
-select * from student_data;
+select * from student_data; ```
